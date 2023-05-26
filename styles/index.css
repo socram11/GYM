@@ -1,0 +1,89 @@
+body {
+   margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 11px;
+}
+
+.logoDiv {
+    background-image:url(../assests/images/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    width: 100;
+    height: 50px;
+    border: none;
+}
+
+.infoDiv {
+    width: 270px;
+    display: flex;
+    justify-content:space-between;
+    height: 35px;
+ }
+
+.mainBackground {
+    background-image: url(../assests/images/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    height: 777px;
+}
+
+.MainPrincipal {
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.slogan {
+    color: red;
+    text-align: center;
+    text-size-adjust: 20;
+}   
+
+.MoreInfoButton {
+    border-radius: 8px;
+    background-color: white;
+    padding: 9px;
+    margin-left: 670px;
+    margin-right: 670px;
+    border: none;
+    transition: 500ms ease;
+}
+
+.MoreInfoButton:hover {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}    
+
+.headerButtons {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px; ;
+    border-radius: 8px;
+    transition: 500ms ease;
+    
+}
+
+.headerButtons:hover {
+    background-color: rgb(86, 84, 84);
+    border-color:rgb(86, 84, 84) ;
+}    
+
+.MainSecundario {
+
+
+}    
